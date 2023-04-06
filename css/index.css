@@ -1,0 +1,120 @@
+body{
+    font-family: 'Century Gothic',calibri,serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-hob:hover,.recommandation{
+    border-top:1px solid aqua;
+    background-color: aqua;
+}
+
+.menu-con:hover,.parcours{
+    background-color:white;
+    border-top: 1px solid  blue;
+
+}
+.menu-exp:hover,.competences{
+    border-top: 1px solid red;
+    background-color: red;
+
+}
+.menu-ind:hover,.presentation{
+    border-top:1px solid gold;
+    background-color: gold;
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    
+
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sec{
+    margin: 0px 10px;
+
+}
+
+.left{
+    float: left;
+    width: 30%;
+
+}
+.right{
+    float: left;
+    width: 70%;
+
+}
+.cleft,.cright,.sousleft,.sousright{
+    float: left;
+    width: 50%;
+
+}
+.sec::after, .exp::after, .reco::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+header{
+    height: 100px;
+ 
+
+}
+footer{
+    height: 100px;
+    background-color: gainsboro;
+    border-top: 1px solid beige;
+    padding-top: 5%;
+    text-align: center;
+
+
+
+}
+nav{
+    background-color:#424558;
+    width: 100%;
+
+}
+nav ul {
+    margin: 0px;
+     padding: 0px;
+     
+   
+
+
+}
+nav li{
+    
+    list-style-type:none;
+    float: left;
+   
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px  30px ;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+.table{
+    display: table;
+    margin: 0 auto;
+
+}
+
+
